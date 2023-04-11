@@ -1,4 +1,5 @@
-_G.Auto_Farm = false -- true / false
+    _G.autofram = state;
+    while _G.autofram do wait()
 
 function totarget(p)
     local Distance2 = (p.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
