@@ -37,6 +37,8 @@ local Tab = Window:NewTab("Status")
 local Section = Tab:NewSection("Status player")
 
 Section:NewToggle("Auto stats", "menu stats", function(state)
+    _G.AddPoint = state;
+    while _G.AddPoint do wait()
     local args = {
         [1] = "AddPoint",
         [2] = "Melee",
