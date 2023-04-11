@@ -1,4 +1,4 @@
-_G.Auto_Farm = true -- true / false
+_G.Auto_Farm = false -- true / false
 
 function totarget(p)
     local Distance2 = (p.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
